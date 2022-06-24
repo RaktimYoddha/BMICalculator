@@ -190,7 +190,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <EditText
+            <TextView
                 android:id="@+id/tvindex"
                 android:layout_width="match_parent"
                 android:layout_height="113dp"
@@ -200,7 +200,8 @@
                 android:textColor="@color/white"
                 android:textSize="60sp"
                 android:textStyle="bold"
-                android:importantForAutofill="no" />
+                android:importantForAutofill="no"
+                tools:ignore="TextViewEdits" />
 
             <TextView
                 android:id="@+id/tvResult"
